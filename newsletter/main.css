@@ -1,0 +1,175 @@
+
+
+
+@media only screen and (max-width: 600px ) {
+
+    *{
+        margin: 0;
+        padding: 0;
+
+    }   
+
+    .block1{
+        position: absolute;
+        border-radius: 4%;
+        max-height: 100%;
+    
+    }
+    .blockconf{
+        margin: 5%; 
+        position: fixed;
+        border-radius: 4%;
+        max-width: 25%;
+    
+    }
+    img{
+        margin: -10px;
+        float: left;
+        width: 80%;
+        height: 300px;
+    }
+    
+    h1 {
+        color: rgb(58, 56, 56);
+        font-size: 140%;
+        padding: 10px;
+        font-weight: bold;
+        text-align: left;
+        line-height: 2.0;
+        }
+    .written{
+
+        margin-left: 10%;
+        font-family: arial, sans-serif;
+        font-size: 18px;
+        text-align: bottom;
+        max-width: 40%;
+        max-height: fit-content;
+        line-height: 1.5;
+    }
+    ol{
+        margin-left: 26px;
+        padding-top: 15px;
+        list-style: url('/images/icon-list.svg');
+    }
+    input{
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid ;
+        border-radius: 5%;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .button{
+        color:white;
+        background-color: rgb(5, 5, 29);
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+   
+    .button:hover{
+        background-color: tomato;
+    
+    }
+    .email:invalid{
+        background-color: ivory;
+        border: none;
+        outline: 2px solid red;
+        border-radius: 5px;
+    }
+
+}
+@media only screen and (min-width: 640px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        margin: 30px;
+        padding: 10px;
+        background-color: darkslategrey;
+    }
+    
+    .block1{
+        margin: 5%; 
+        background-color: white;
+        position: fixed;
+        border-radius: 4%;
+        max-width: 60%;
+    
+    }
+    .blockconf{
+        margin: 5%; 
+        background-color: white;
+        position: fixed;
+        border-radius: 4%;
+        max-width: 25%;
+    
+    }
+    img{
+        padding: 20px;
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    
+    h1 {
+        color: rgb(58, 56, 56);
+        font-size: 40px;
+        padding: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 2.4;
+        }
+    .written{
+        margin-top: 20px;
+        margin-left: 30px;
+        font-family: arial, sans-serif;
+        font-size: 18px;
+        text-align: left;
+        max-width: 40%;
+        max-height: fit-content;
+        padding-left: 30px;
+        float: left;
+        line-height: 1.5;
+    }
+    ol{
+        margin-left: 26px;
+        padding-top: 15px;
+        list-style: url('/images/icon-list.svg');
+    }
+    input{
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid ;
+        border-radius: 5%;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .button{
+        color:white;
+        background-color: rgb(5, 5, 29);
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+   
+    .button:hover{
+        background-color: tomato;
+    
+    }
+    .email:invalid{
+        background-color: ivory;
+        border: none;
+        outline: 2px solid red;
+        border-radius: 5px;
+    }
+
+}
